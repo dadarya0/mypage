@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="" ?>
+<html xmlns="http://www.w3.org/1999/html">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Scratch 3.0</title>
+    </head>
+    <body>
+        <div>This is third party page</div>
+        <div>{dwc=firstname}Default content goes here{/dwc}
+            {global-token=gt}
+            {form=3}
+        </div>
+        <div data-slot="dwc" data-param-slot-name="firstname">
+            Default content goes here
+        </div>
+        <script>
+            (function(w,d,t,u,n,a,m){w['MauticTrackingObject']=n;
+                w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)},a=d.createElement(t),
+                    m=d.getElementsByTagName(t)[0];a.async=1;a.src=u;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://saurabh-rc-test.qa.acs.acquia.io/mtc.js','mt');
+
+            mt('send', 'pageview');
+        </script>
+    </body>
+</html>
